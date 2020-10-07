@@ -2,13 +2,18 @@
 
 /*generelle regler*/
 body {
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    background-color: #FAC177;
 }
+
 /*Header*/
 header {
     height: 65px;
+
 }
+
 header img {
     height: 40px;
     padding-top: 10px;
@@ -18,9 +23,7 @@ header img {
 
 /*Main*/
 
-main {
-    background-color: #FAC177;
-}
+main {}
 
 #splash-video {
     position: relative;
@@ -39,4 +42,26 @@ main {
     height: 100%;
 }
 
+#content,
+#content2 {
+    background-color: white;
+    margin: 10vw 10vw 10vw 10vw;
+    padding-bottom: 10vw;
 
+}
+
+/*tilføjet lidt style for at visuallisere hhvordan vores content kommer til at se ud*/
+#media_container {
+    background-color: #BEE0D9;
+    height: 56vw;
+}
+
+#tekst_container {
+    padding: 0 15px 15px 15px;
+
+}
+
+/*footer*/
+footer {
+    background-color: #093A83;
+}
