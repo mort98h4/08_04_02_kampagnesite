@@ -1,12 +1,14 @@
 /*CSS TIL INDEX.HTML + GALLERI.HTML*/
 
-/**/
+/*generelle regler*/
 
-/**/
+/*Header*/
 
 #tekst_logo {
     background-image: url(indhold/billeder/TUBORG%20NUL%20billede.PNG);
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     background-size: cover;
 }
+
+/*Main*/
