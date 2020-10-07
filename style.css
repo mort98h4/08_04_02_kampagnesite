@@ -6,10 +6,10 @@ body {
     margin-right: 0;
 }
 /*Header*/
-Header {
+header {
     height: 65px;
 }
-Header img {
+header img {
     height: 40px;
     padding-top: 10px;
     padding-left: 15px;
@@ -17,6 +17,10 @@ Header img {
 
 
 /*Main*/
+
+main {
+    background-color: #FAC177;
+}
 
 #splash-video {
     position: relative;
