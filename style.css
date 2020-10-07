@@ -1,1 +1,12 @@
 /*CSS TIL INDEX.HTML + GALLERI.HTML*/
+
+/**/
+
+/**/
+
+#tekst_logo {
+    background-image: url(indhold/billeder/TUBORG%20NUL%20billede.PNG);
+    width: 300px;
+    height: 10px;
+    background-size: cover;
+}
