@@ -10,7 +10,8 @@ body {
 
 /*Header*/
 header {
-    height: 65px;
+/*    height: 65px;*/
+    height: 7vh;
 
 }
 
@@ -28,7 +29,7 @@ main {}
 #splash-video {
     position: relative;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 49.25%;
     overflow: hidden;
 }
 
