@@ -5,13 +5,14 @@ body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    background-color: #FAC177;
+    background-color: #093A83;
 }
 
 /*Header*/
 header {
 /*    height: 65px;*/
     height: 7vh;
+    background-color: white;
 
 }
 
@@ -24,7 +25,9 @@ header img {
 
 /*Main*/
 
-main {}
+main {
+    background-color: #093A83;
+}
 
 #splash-video {
     position: relative;
