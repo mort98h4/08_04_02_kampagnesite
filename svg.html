@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wuw1igr.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h4>Tuborg</h4>
+            </div>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Forside</a>
+                </li>
+                <li>
+                    <a href="svg.html">Grafik</a>
+                </li>
+                <li>
+                    <a href="video.html">Video Portfolio</a>
+                </li>
+            </ul>
+
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <svg id="graf1" viewbox="-25 -15 260 140">
+                <g id="chart">
+                    <text x="0" y="-4">Hvorfor drikker du øl?</text>
+                    <text x="-23" y="5">100%</text>
+                    <text x="-21" y="51">50%</text>
+                    <text x="-19" y="100">0%</text>
+                    <line x1="0" x2="0" y1="100" y2="0" />
+                    <line x1="0" x2="200" y1="0" y2="0" />
+                    <line x1="0" x2="200" y1="50" y2="50" />
+                    <line x1="0" x2="200" y1="100" y2="100" />
+                </g>
+
+                <g id="svar">
+                    <text x="3" y="110">For at blive fuld</text>
+                    <text x="58" y="110">For hyggens skyld</text>
+                    <text x="118" y="110">For smagens skyld</text>
+                </g>
+
+                <g class="bars">
+                    <line x1="20" x2="20" y1="10" y2="100" />
+                    <line x1="80" x2="80" y1="50" y2="100" />
+                    <line x1="140" x2="140" y1="20" y2="100" />
+                </g>
+            </svg>
+            <p id="holder1"></p>
+        </section>
+
+        <section>
+            <svg id="graf2" viewbox="-25 -15 260 140">
+                <g id="chart">
+                    <text x="0" y="-4">Har du smagt alkoholfri øl - hvis ja, hvad synes du om det?</text>
+                    <text x="-23" y="5">100%</text>
+                    <text x="-21" y="51">50%</text>
+                    <text x="-19" y="100">0%</text>
+                    <line x1="0" x2="0" y1="100" y2="0" />
+                    <line x1="0" x2="200" y1="0" y2="0" />
+                    <line x1="0" x2="200" y1="50" y2="50" />
+                    <line x1="0" x2="200" y1="100" y2="100" />
+                </g>
+
+                <g id="svar">
+                    <text x="3" y="110">Det smagte godt</text>
+                    <text x="52" y="110">Det smagte dårligt</text>
+                    <text x="108" y="110">Det smagte okay</text>
+                    <text x="158" y="110">Jeg har ikke smagt det</text>
+                </g>
+
+                <g class="bars">
+                    <line x1="20" x2="20" y1="10" y2="100" />
+                    <line x1="75" x2="75 " y1="50" y2="100" />
+                    <line x1="135" x2="135" y1="20" y2="100" />
+                    <line x1="190" x2="190" y1="20" y2="100" />
+
+                </g>
+            </svg>
+            <p id="holder2"></p>
+        </section>
+
+        <section>
+            <svg id="graf3" viewbox="-25 -15 260 140">
+                <g id="chart">
+                    <text x="0" y="-4">Hvor mange øl drikker du ugentligt?</text>
+                    <text x="-23" y="5">100%</text>
+                    <text x="-21" y="51">50%</text>
+                    <text x="-19" y="100">0%</text>
+                    <line x1="0" x2="0" y1="100" y2="0" />
+                    <line x1="0" x2="200" y1="0" y2="0" />
+                    <line x1="0" x2="200" y1="50" y2="50" />
+                    <line x1="0" x2="200" y1="100" y2="100" />
+                </g>
+
+                <g id="svar">
+                    <text x="3" y="110">0-3</text>
+                    <text x="58" y="110">4-7</text>
+                    <text x="118" y="110">8 eller flere</text>
+                </g>
+
+                <g class="bars">
+                    <line x1="20" x2="20" y1="10" y2="100" />
+                    <line x1="80" x2="80" y1="50" y2="100" />
+                    <line x1="140" x2="140" y1="20" y2="100" />
+                </g>
+            </svg>
+            <p id="holder3"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
