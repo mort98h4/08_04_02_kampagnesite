@@ -1,12 +1,11 @@
 /*CSS TIL INDEX.HTML + GALLERI.HTML*/
 
 /*generelle regler*/
-* {
+* {}
 
-}
-
-::-webkit-scrollbar { /*fjerner scrollbar*/
-    display:none;
+::-webkit-scrollbar {
+    /*fjerner scrollbar*/
+    display: none;
 }
 
 body {
@@ -68,17 +67,38 @@ main {
     bottom: -67px;
 }
 
-#content2 {
-    margin: 10vw 0vw 10vw 7vw;
+#content #media_container h2 {
+    position: absolute;
+    left: 220px;
+    bottom: 30px;
+    z-index: 1;
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
 }
 
-content2 img {
+#content #tekst_container {
+    border-radius: 0 2% 2% 0;
+}
 
+#content2 {
+    margin: 500px 0vw 10vw 7vw;
+}
+
+#content2 img {
+    height: 500px;
+    position: absolute;
+    bottom: -60px;
+    margin-top: 400px;
+
+}
+
+#content2 #tekst_container {
+    border-radius: 2% 0 0% 2%;
 }
 
 /*tilføjet lidt style for at visuallisere hhvordan vores content kommer til at se ud*/
 #media_container {
-
     padding-bottom: 10vw;
     opacity: 1;
     position: relative;
