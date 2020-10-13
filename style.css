@@ -1,16 +1,34 @@
 /*CSS TIL INDEX.HTML + GALLERI.HTML*/
 
 /*generelle regler*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
     background-color: #093A83;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 /*Header*/
 header {
-/*    height: 65px;*/
+    /*    height: 65px;*/
     height: 7vh;
     background-color: white;
     position: sticky;
@@ -48,26 +66,115 @@ main {
     right: 0;
     width: 100%;
     height: 100%;
-    position:absolute;
+    position: absolute;
 }
 
 #content,
 #content2 {
     background-color: white;
     margin: 10vw 10vw 10vw 10vw;
-    padding-bottom: 10vw;
-
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.80);
 }
 
 /*tilføjet lidt style for at visuallisere hhvordan vores content kommer til at se ud*/
 #media_container {
     background-color: #BEE0D9;
-    height: 56vw;
 }
 
 #tekst_container {
     padding: 0 15px 15px 15px;
 
+}
+
+/* style for about */
+#about {}
+
+#media_container {}
+
+#info_container {}
+
+#tekst_container {}
+
+/* media queries */
+/* for tablet */
+@media (min-width: 1024px) {}
+
+/* for desktop */
+@media (min-width: 1024px) {
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #about img {
+        position: absolute;
+        height: 60vh;
+        width: auto;
+        /*SVG størrelse: 484*155
+    Ny højde: 5vw
+    Ny bredde: 5/171*484 = 14.15vw*/
+    }
+
+    .column_left {
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+
+    .column_right {
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+
+    .media_container {
+        background-color: #fff;
+    }
+
+    .media_container img {
+        height: 344px;
+        object-fit: cover;
+    }
+
+    .info_container {
+        padding: 10px;
+    }
+
+    .range_stat {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: sans-serif;
+    }
+
+    .input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info_container input {
+        width: 100%;
+        appearance: none;
+        margin-bottom: 30px;
+    }
+
+    input:disabled {
+        background-color: #093A83;
+        height: 2px;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: solid 1px black;
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    }
+
+    .tekst_container {
+        padding: 10px;
+    }
 }
 
 /*footer*/
