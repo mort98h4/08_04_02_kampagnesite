@@ -1,16 +1,21 @@
 /*CSS TIL INDEX.HTML + GALLERI.HTML*/
 
 /*generelle regler*/
+* {
+
+}
+
+::-webkit-scrollbar { /*fjerner scrollbar*/
+    display:none;
+}
+
 body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #093A83;
+    margin: 0;
+    background-color: #253D80;
 }
 
 /*Header*/
 header {
-/*    height: 65px;*/
     height: 7vh;
     background-color: white;
     position: sticky;
@@ -21,7 +26,7 @@ header {
 }
 
 header img {
-    height: 40px;
+    height: 70%;
     padding-top: 10px;
     padding-left: 15px;
 }
@@ -30,14 +35,15 @@ header img {
 /*Main*/
 
 main {
-    background-color: #093A83;
+    background-color: #253D80;
 }
 
 #splash-video {
     position: relative;
+    height: 93vh;
     width: 100%;
-    padding-top: 49.25%;
     overflow: hidden;
+    margin-bottom: 300px;
 }
 
 #splash-video iframe {
@@ -48,25 +54,43 @@ main {
     right: 0;
     width: 100%;
     height: 100%;
-    position:absolute;
+    position: absolute;
 }
 
-#content,
-#content2 {
-    background-color: white;
-    margin: 10vw 10vw 10vw 10vw;
+#content {
+    margin: 10vw 5vw 10vw 0vw;
     padding-bottom: 10vw;
+}
+
+#content img {
+    height: 400px;
+    position: absolute;
+    left: -250px;
+    bottom: -67px;
+}
+
+#content2 {
+
+    margin: 10vw 0vw 10vw 5vw;
+    padding-bottom: 10vw;
+}
+
+content2 img {
 
 }
 
 /*tilføjet lidt style for at visuallisere hhvordan vores content kommer til at se ud*/
 #media_container {
-    background-color: #BEE0D9;
-    height: 56vw;
+
+    padding-bottom: 10vw;
+    opacity: 1;
+    position: relative;
 }
 
 #tekst_container {
-    padding: 0 15px 15px 15px;
+    padding: 2% 18% 15px 18%;
+    background-color: #EEEEEE;
+
 
 }
 
