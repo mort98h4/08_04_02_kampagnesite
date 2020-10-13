@@ -58,8 +58,7 @@ main {
 }
 
 #content {
-    margin: 10vw 5vw 10vw 0vw;
-    padding-bottom: 10vw;
+    margin: 10vw 7vw 10vw 0vw;
 }
 
 #content img {
@@ -70,9 +69,7 @@ main {
 }
 
 #content2 {
-
-    margin: 10vw 0vw 10vw 5vw;
-    padding-bottom: 10vw;
+    margin: 10vw 0vw 10vw 7vw;
 }
 
 content2 img {
