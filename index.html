@@ -31,10 +31,14 @@
         </nav>
     </header>
     <main>
-        <!--placeholder til vores splash/splash video eventuel iframe-->
-        <div id="splash-video">
-            <iframe src="https://www.youtube.com/embed/Sd1AS-Q9_J8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- iframe video til mobile -->
+        <div id="splash_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V4Z5jrhAJpU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <!-- Background video til tablet/desktop -->
+        <video autoplay muted loop id="bg_video">
+            <source src="indhold/video/Gruppe%2014%20-%20Tuborg%20NUL.mp4">
+        </video>
         <!--Dette er en template så hvis der skal mere content, så genbruges disse sectioners opbygning-->
 
         <section id="content">
@@ -84,15 +88,17 @@
             </article>
         </section>
 
-        <section id="content2">
-            <div id="media_container">
-                <img>
-                <!--Iframe skal være her-->
-            </div>
-            <div class="tekst_container">
-                <h2>Title placeholder</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </div>
+        <section id="content">
+            <article>
+                <div id="media_container">
+                    <img>
+                    <!--Iframe skal være her-->
+                </div>
+                <div class="tekst_container">
+                    <h2>Title placeholder</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+            </article>
         </section>
     </main>
     <footer>
