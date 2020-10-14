@@ -286,97 +286,97 @@ figcaption {
 
 
 /*svg.html styling*/
-#graf1 {
+#svgpage #graf1 {
     width: 100%;
     vertical-align: middle;
 }
 
-#graf2 {
-    width: 100%;
-    vertical-align: middle;
-
-}
-
-#graf3 {
+#svgpage #graf2 {
     width: 100%;
     vertical-align: middle;
 
 }
 
-#graf4 {
+#svgpage #graf3 {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+#svgpage #graf4 {
     width: 100%;
     vertical-align: middle;
 
 }
 
 
-#chart line {
+#svgpage #chart line {
     stroke: #DBD6D6;
     stroke-width: .5;
 }
 
-#chart text {
+#svgpage #chart text {
     font-size: 0.5em;
     font-family: myriad-pro, sans-serif;
     fill: #E6E1E1;
 }
 
 
-.bars {
+#svgpage .bars {
     stroke-width: 20;
     stroke: #A9A5A5;
 }
 
-#svar text {
+#svgpage #svar text {
     font-size: 7px;
     font-family: myriad-pro, sans-serif;
     fill: #E6E1E1;
 }
 
-main {
+#svgpage main {
     max-width: 1500px;
     margin: 0 auto;
 }
 
-section {
+#svgpage section {
     text-align: center;
     margin: 35px 0;
     max-height: 70vh;
 }
 
-.container {
+#svgpage .container {
     display: flex;
     gap: 15px;
     padding: 10px;
 }
 
-.container figure {
+#svgpage .container figure {
     flex-grow: 1;
     width: 40%;
 }
 
 
-.container figcaption {
+#svgpage .container figcaption {
     color: aliceblue;
     font-size: 1.6em;
 }
 
-#holder1 {
+#svgpage #holder1 {
     color: aliceblue;
     font-family: myriad-pro, sans-serif;
 }
 
-#holder2 {
+#svgpage #holder2 {
     color: aliceblue;
     font-family: myriad-pro, sans-serif;
 }
 
-#holder3 {
+#svgpage #holder3 {
     color: aliceblue;
     font-family: myriad-pro, sans-serif;
 }
 
-#holder4 {
+#svgpage #holder4 {
     color: aliceblue;
     font-family: myriad-pro, sans-serif;
 }
@@ -558,30 +558,30 @@ footer p {
 
 
 @media (max-width: 870px) {
-    #svar text {
+    #svgpage #svar text {
         font-size: 7px;
     }
 
-    section {
+    #svgpage section {
         padding-top: 7vh;
     }
 
-    .container {
+    #svgpage .container {
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
 
-    .container figure {
+    #svgpage .container figure {
         flex-basis: 90%;
         flex-shrink: 0;
         scroll-snap-align: center;
     }
 
-    .container svg {
+    #svgpage .container svg {
         margin-right: 32px;
     }
 
-    .container figcaption {
+    #svgpage .container figcaption {
         font-size: 19px;
     }
 }
