@@ -143,20 +143,41 @@ nav {
 /*****navigation slut****/
 
 
-/*****SVG grafer start****/
+/*****SVG grafer styling start****/
+
+
+/**** meeh... header h1 {
+    padding-top: 40px;
+    padding-left: 65px;
+    text-align: left;
+    font-family: myriad-pro, sans-serif;
+    color: aliceblue;
+} ****/
 
 
 #graf1 {
-    max-width: 800px;
+    width: 100%;
+    vertical-align: middle;
 }
 
 #graf2 {
-    max-width: 800px;
+    width: 100%;
+    vertical-align: middle;
+
 }
 
 #graf3 {
-    max-width: 800px;
+    width: 100%;
+    vertical-align: middle;
+
 }
+
+#graf4 {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
 
 #chart line {
     stroke: #DBD6D6;
@@ -164,10 +185,9 @@ nav {
 }
 
 #chart text {
-    font-size: 7px;
-    font-family: sans-serif;
-    color: white;
-
+    font-size: 0.5em;
+    font-family: myriad-pro, sans-serif;
+    fill: #E6E1E1;
 }
 
 
@@ -177,11 +197,92 @@ nav {
 }
 
 #svar text {
-    font-size: 6px;
-    font-family: sans-serif;
+    font-size: 7px;
+    font-family: myriad-pro, sans-serif;
+    fill: #E6E1E1;
 }
 
-/*****SVG grafer slut****/
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    margin: 35px 0;
+    max-height: 70vh;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.container figure {
+    flex-grow: 1;
+    width: 40%;
+}
+
+
+.container figcaption {
+    color: aliceblue;
+    font-size: 1.6em;
+}
+
+#holder1 {
+    color: aliceblue;
+    font-family: myriad-pro, sans-serif;
+}
+
+#holder2 {
+    color: aliceblue;
+    font-family: myriad-pro, sans-serif;
+}
+
+#holder3 {
+    color: aliceblue;
+    font-family: myriad-pro, sans-serif;
+}
+
+#holder4 {
+    color: aliceblue;
+    font-family: myriad-pro, sans-serif;
+}
+
+
+@media (max-width: 870px) {
+    #svar text {
+        font-size: 7px;
+    }
+
+    section {
+        padding-top: 7vh;
+    }
+
+    .container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .container svg {
+        margin-right: 32px;
+    }
+
+    .container figcaption {
+        font-size: 19px;
+    }
+}
+
+
+
+/*****SVG grafer styling slut****/
 
 
 /*generelle regler*/
