@@ -243,7 +243,7 @@ input[type=range]::-webkit-slider-thumb {
     position: absolute;
     width: 60vw;
     height: auto;
-    top: 1200px;
+    top: 1050px;
     right: 12px;
 }
 
@@ -299,7 +299,7 @@ input[type=range]::-webkit-slider-thumb {
 
     #beer_hero img {
         width: 50vw;
-        top: 1300px;
+        top: 1150px;
         right: -20px;
     }
 }
@@ -312,7 +312,7 @@ input[type=range]::-webkit-slider-thumb {
 
     #beer_hero img {
         width: 40vw;
-        top: 1500px;
+        top: 1400px;
     }
 }
 
