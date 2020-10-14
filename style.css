@@ -202,7 +202,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: #EEEEEE;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -291,8 +291,8 @@ nav {
         position: fixed;
         right: 0px;
         height: 100vh;
-        top: 7.9vh;
-        background-color: whitesmoke;
+        top: 7vh;
+        background-color: #EEEEEE;
         display: flex;
         flex-direction: column;
         align-items: center;
