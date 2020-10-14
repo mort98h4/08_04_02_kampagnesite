@@ -56,6 +56,90 @@ nav img {
 
 }
 
+/*BURGER MENU STYLING */
+
+nav {
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEEEEE;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0 16px;
+    z-index: 1;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #093A83;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 23px;
+    height: 2px;
+    background-color: #093A83;
+    margin: 5px 5px;
+    transition: all 0.5s ease;
+}
+
+/*toggle kommer fra class i JS*/
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.nav-active {
+    transform: translateX(0%)!important; /* vi havde lavet lidt dårligt kode og havde ikke tid til at fikse hirakiret, så !important er den dårlige men virkende løsning*/
+}
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
 
 /*Main*/
 
@@ -201,71 +285,7 @@ footer {
 
 
 
-/*BURGER MENU STYLING */
 
-nav {
-    height: 7vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #EEEEEE;
-    font-family: myriad-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    padding: 0 16px;
-    z-index: 1;
-
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 35%;
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-.nav-links a {
-    color: #093A83;
-    text-decoration: none;
-    letter-spacing: 1.5px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
-
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-.burger div {
-    width: 23px;
-    height: 2px;
-    background-color: #093A83;
-    margin: 5px 5px;
-    transition: all 0.5s ease;
-}
-
-/*toggle kommer fra class i JS*/
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 5px);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -5px);
-}
 
 
 @media screen and (max-width:1200px) {
@@ -310,21 +330,5 @@ nav {
 }
 
 /* .nav-active er klassen som bliver "toggled" i JS som gør at nav-links kan translate ind ind på skærmen igen fra 100% */
-.nav-active {
-    transform: translateX(0%);
-}
-
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
 
 /*****BURGER MENU****/
