@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #093A83;
+    background-color: #253D80;
 }
 
 img {
@@ -53,7 +53,6 @@ nav img {
     margin: auto 0;
     flex-direction: column;
     align-self: flex-start;
-
 }
 
 /*BURGER MENU STYLING */
@@ -73,7 +72,6 @@ nav {
     right: 0;
     padding: 0 16px;
     z-index: 1;
-
 }
 
 .nav-links {
@@ -123,7 +121,8 @@ nav {
 }
 
 .nav-active {
-    transform: translateX(0%)!important; /* vi havde lavet lidt dårligt kode og havde ikke tid til at fikse hirakiret, så !important er den dårlige men virkende løsning*/
+    transform: translateX(0%) !important;
+    /* vi havde lavet lidt dårligt kode og havde ikke tid til at fikse hirakiret, så !important er den dårlige men virkende løsning*/
 }
 
 
@@ -275,12 +274,29 @@ input[type=range]::-webkit-slider-thumb {
 
 /*footer*/
 footer {
-    background-color: #093A83;
+    background-color: #00193e;
+    display: flex;
+    flex-direction: column;
 }
 
+.footer_element {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+footer img {
+    max-height: 8vh;
+    width: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
 
-
+footer p {
+    color: white;
+}
 
 
 
