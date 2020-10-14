@@ -45,10 +45,14 @@ header {
     z-index: 1;
 }
 
-header img {
+nav img {
     height: 70%;
-    padding-top: 10px;
-    padding-left: 15px;
+    width: auto;
+    max-height: 5vh;
+    margin: auto 0;
+    flex-direction: column;
+    align-self: flex-start;
+
 }
 
 
@@ -194,6 +198,7 @@ footer {
 /*BURGER MENU STYLING */
 
 nav {
+    height: 7vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -206,17 +211,18 @@ nav {
     top: 0;
     right: 0;
     padding: 0 16px;
-    min-height: 8vh;
     z-index: 1;
+
 }
 
+/*
 .logo {
     color: #093A83;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-size: 24px;
-
 }
+*/
 
 .nav-links {
     display: flex;
