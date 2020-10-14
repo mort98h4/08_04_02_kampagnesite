@@ -215,15 +215,6 @@ nav {
 
 }
 
-/*
-.logo {
-    color: #093A83;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-size: 24px;
-}
-*/
-
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -330,4 +321,4 @@ nav {
     }
 }
 
-/*****navigation slut****/
+/*****BURGER MENU****/
