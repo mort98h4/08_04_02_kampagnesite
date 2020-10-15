@@ -488,6 +488,10 @@ figcaption {
     figure {
         flex-basis: 46%;
     }
+
+    #about p, #beer_hero p {
+        font-size: 1.5vw;
+    }
 }
 
 /* for desktop */
